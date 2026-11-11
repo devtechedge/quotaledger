@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js & build artifacts
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.vercel/
+.neon
+
+# Testing & Playwright
+coverage/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Local databases & temp files
+.pglite/
+*.sqlite
+*.db
+tmp/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
